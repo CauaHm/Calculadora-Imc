@@ -21,7 +21,7 @@ function calcularImc() {
         mensagem += 'Você está com obesidade.'
     }
     if (!nome) {
-        alert('Digite um nome!')
+        resultado.innerHTML = 'Preencha todos os campos!'
     } else {
         resultado.innerHTML = mensagem
         resultado.style.height = '200px'
