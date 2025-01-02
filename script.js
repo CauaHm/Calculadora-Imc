@@ -1,3 +1,5 @@
+const calcular = document.getElementById('calcular')
+
 function calcularImc() {
     let nome = document.getElementById('nome').value
     let altura = document.getElementById('altura').value
@@ -28,3 +30,5 @@ function calcularImc() {
     }
 
 }
+
+calcular.addEventListener('click', calcularImc);
